@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous" defer></script>
+
+    <script src="https://kit.fontawesome.com/43f7aa518e.js" crossorigin="anonymous" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+
+    <title>Cervejaria Polo-Norte</title>
+</head>
+
+<body>
+    <header >
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img id="logo" class=" rounded-circle" src="img/logo.jpg" alt="">
+                    
+                </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Página Inicial</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Devoluções e pedidos</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Conta
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Entrar</a></li>
+                          <li><a class="dropdown-item" href="#">Registrar</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Esqueci minha senha</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a href="" class="nav-link ">Carrinho</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                      <button class="btn btn-dark fw-bold" type="submit">Pesquisar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    
+        <div class="container">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/slide1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="fw-bold text-light ">Seja bem vindo a nossa cervejaria</h5>
+                      <p class="fw-bold text-light ">Temos as cervejas mais gostosas da região </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="fw-bold text-light ">Cerveja com amigos</h5>
+                      <p class="fw-bold text-light ">Chame seus amigos e venha se deliciar com nossas cervejas </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/slide3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="fw-bold text-light ">Choop</h5>
+                      <p class="fw-bold text-light">Encomende também o seu barril de Choop </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container " style="margin-top: 100px;">
+            <div class="row">
+                
+                <div class="col-md-3 border " >
+                    <h3 class="text-center">Itens mais vistos</h3>
+                    <div class="d-flex justify-content-center" >
+                        <div class="bg-image my-2 hover-overlay ripple mb-4">
+                            <a href=""><img class="img-fluid" src="img/corona_fardo.png" alt="">
+                            <h5>Fardo Corona long neck</h5></a>
+                            <p>R$ 35,90</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="bg-image my-2 hover-overlay ripple mb-4">
+                            <a href=""><img class="img-fluid" src="img/spaten_fardo.webp" alt="">
+                            <h5>Fardo Spaten lata</h5></a>
+                            <p>R$ 47,88</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="bg-image my-2 hover-overlay ripple mb-4">
+                            <a href=""><img class="img-fluid" src="img/stela_fardo.webp" alt="">
+                            <h5>Fardo Stela long neck</h5></a>
+                            <p>R$ 25,38</p>
+                        </div>
+                    </div>
+                    
+
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-secondary fw-bold">
+                            Veja Mais
+                        </button>
+                    </div>
+
+                </div>
+                
+
+                <div class="col-md-3 ">
+                    <div class="d-flex justify-content-center">
+                        <div class="bg-image my-2 hover-overlay ripple mb-4">
+                            <img class="img-fluid" src="img/original_fardo.webp" alt="">
+                            <h5>Fardo Original garrafa</h5>
+                            <p>R$ 93,48</p>
+                            <button type="button" class="btn btn-dark fw-bold">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="bg-image my-2 hover-overlay ripple mb-4">
+                            <img class="img-fluid" src="img/budweiser_fardo.webp" alt="">
+                            <h5>Fardo Budweiser lata</h5>
+                            <p>R$ 30,16</p>
+                            <button type="button" class="btn btn-dark fw-bold">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="bg-image my-2 hover-overlay ripple mb-4">
+                            <img class="img-fluid" src="img/imperio_fardo.webp" alt="">
+                            <h5>Fardo Imperio lata</h5>
+                            <p>R$ 49,88</p>
+                            <button type="button" class="btn btn-dark fw-bold">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="d-flex justify-content-center">
+                        <div class="bg-image my-2 hover-overlay ripple mb-4">
+                            <img class="img-fluid" src="img/fardobrahma.webp" alt="">
+                            <h5>Fardo Brahma lata</h5>
+                            <p>R$ 76,68</p>
+                            <button type="button" class="btn btn-dark fw-bold">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="bg-image my-2 hover-overlay ripple mb-4">
+                            <img class="img-fluid" src="img/heineken_fardo.webp" alt="">
+                            <h5>Fardo Heineken long neck</h5>
+                            <p>R$ 37,79</p>
+                            <button type="button" class="btn btn-dark fw-bold">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="bg-image my-2 hover-overlay ripple mb-4">
+                            <img class="img-fluid" src="img/skol_fardo.webp" alt="">
+                            <h5>Fardo Skol lata</h5>
+                            <p>R$ 52,90</p>
+                            <button type="button" class="btn btn-dark fw-bold">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="d-flex justify-content-center">
+                        <div class="bg-image my-2 hover-overlay ripple mb-4">
+                            <img class="img-fluid" src="img/antartica_fardo.webp" alt="">
+                            <h5>Fardo Antartica lata</h5>
+                            <p>R$ 52,00</p>
+                            <button type="button" class="btn btn-dark fw-bold">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="bg-image my-2 hover-overlay ripple mb-4">
+                            <img class="img-fluid" src="img/eisebahn.webp" alt="">
+                            <h5>Fardo Eisebahn lata</h5>
+                            <p>R$ 114,29</p>
+                            <button type="button" class="btn btn-dark fw-bold">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="bg-image my-2 hover-overlay ripple mb-4">
+                            <img class="img-fluid" src="img/fardo_furst.webp" alt="">
+                            <h5>Fardo Furst lata</h5>
+                            <p>R$ 168,00</p>
+                            <button type="button" class="btn btn-dark fw-bold">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 100px; margin-bottom: 100px;" class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <section>
+                                <h5 class="text-center">
+                                    NewsLetter
+                                </h5>
+                                <p class="text-center">
+                                    Inscreva-se para receber noticias.
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <form role="search" class="d-flex">
+                                        <input type="email" placeholder="Insira seu e-mail" class="form-control me-4">
+                                        <button class="btn btn-dark fw-bold" type="submit">Enviar</button>
+                                    </form>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+<div id="footer" class="container-fluid ">
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: #000000"
+            >
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Cervejaria Polo-Norte
+              </h6>
+              <p>
+                Somos a melhor revendora de cerveja de Belo Horizonte e região. Compre na nossa loja.
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Metodos de Pagamento</h6>
+            
+                <img class="w-100" src="img/pagamentos.webp" alt="pagamentos">
+
+            </div>
+            <!-- Grid column -->
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                links Usaveis
+              </h6>
+              <p>
+                <a href="" class="text-white">Ajuda</a>
+              </p>
+              <p>
+                <a href="" class="text-white">Política da loja</a>
+              </p>
+              <p>
+                <a href="" class="text-white">Política de Privacidade</a>
+              </p>
+              <p>
+                <a href="" class="text-white">FAQ</a>
+              </p>
+            </div>
+  
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
+              <p><i class="fas fa-home mr-3"></i> Belo Horizonte, CEP 30535.610, Brasil</p>
+              <p><i class="fas fa-envelope mr-3"></i> cervejaria.polo.norte@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 55 31 99999-9999</p>
+              <p><i class="fas fa-print mr-3"></i> + 55 31 99999-9999</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+  
+        <hr class="my-3">
+  
+        <!-- Section: Copyright -->
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+            <!-- Grid column -->
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+              <!-- Copyright -->
+              <div class="p-3">
+                © 2023 Copyright:
+                <a class="text-white" href=""
+                   >ceverjariapolonorte.com</a>
+              </div>
+              <!-- Copyright -->
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+              <!-- Facebook -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 class="text-white"
+                 role="button"
+                 ><i class="fab fa-facebook-f"></i
+                ></a>
+  
+              <!-- Twitter -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 class="text-white"
+                 role="button"
+                 ><i class="fab fa-twitter"></i
+                ></a>
+  
+              <!-- Google -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 class="text-white"
+                 role="button"
+                 ><i class="fab fa-google"></i
+                ></a>
+  
+              <!-- Instagram -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 class="text-white"
+                 role="button"
+                 ><i class="fab fa-instagram"></i
+                ></a>
+            </div>
+            <!-- Grid column -->
+          </div>
+        </section>
+        <!-- Section: Copyright -->
+      </div>
+      <!-- Grid container -->
+    </footer>
+    <!-- Footer -->
+  </div>
+  <!-- End of .container -->
+
+</body>
+
+</html>
